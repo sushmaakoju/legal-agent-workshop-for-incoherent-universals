@@ -1,0 +1,8 @@
+explain each file in the folder generated. what it means and why we have it. And also ensure you are considering an abstract one too. remember our proof sketch from NLI-with-FOL shows:
+Pre-requisite: Create a Results Table that contains columns for: NLI Label, Final Label and in rows, row 1: KB AND NOT QUERY, row 2: KB AND QUERY.
+1. Apply  resolution over KB AND NOT QUERY -> If contradiction then entailment, else it is neutral or contradiction. Rerun resolution with KB AND QUERY - if contradiction, then contradiction else it is either neutral or entailed which we call it as "inconclusive". 
+2. If both KB AND NOT QUERY as well as KB AND QUERY yield "No" Empty clause, then it is Neutral. 
+3. We re-run 1 over each type of FOL resolution types we described above. - for verifying each type of resolution, we use Muse call to give result. so we call muse for KB and NOT QUERY - note the result and record it in a table. Then call MUSE for KB and QUERY - note the result and record. 
+4. Based on results we recorded for KB AND NOT QUERY as well as KB AND QUERY - Then apply my step 2 above and say neutral if it was Not empty clause for both , if one was empty and other was non-empty clauses respectively, then mark it as cannot decide or inconclusive inference. Remember Inconclusive inference is not same as logically inconclusive and it is also not same as neutral.
+5. Update the results and fill in results for this example.
+6. Repeat 1 to 5 for each type of resolution Unit Resolution, Input Resolution, Set of Support, Linear Resolution, Hyper-Resolution and Ordered Resolution (define an order ).

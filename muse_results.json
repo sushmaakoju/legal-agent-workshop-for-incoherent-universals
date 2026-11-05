@@ -1,0 +1,135 @@
+{
+ "source": "Muse chat reasoning, 2026-11-04, cross-checked by deterministic engine (results_table.py). Live API call via muse_resolution_calls.py not yet run in VM (no key) \u2014 run it in WSL to confirm/replace.",
+ "cases": {
+  "brown_bat": {
+   "Traditional": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Linear": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Unit": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Input": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Set of Support": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": false,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": false,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "inconclusive inference (cannot decide)"
+   },
+   "Hyper": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Ordered": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   }
+  },
+  "brown_a": {
+   "Traditional": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Linear": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Unit": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Input": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Set of Support": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": false,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": false,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "inconclusive inference (cannot decide)"
+   },
+   "Hyper": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   },
+   "Ordered": {
+    "muse_kb_and_not_query_empty": true,
+    "muse_kb_and_query_empty": true,
+    "deterministic_kb_and_not_query_empty": true,
+    "deterministic_kb_and_query_empty": true,
+    "agree": true,
+    "nli_label": "Neutral",
+    "final_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)"
+   }
+  }
+ }
+}

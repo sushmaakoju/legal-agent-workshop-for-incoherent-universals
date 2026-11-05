@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments — local only, never commit
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets — NEVER commit these. A public repo with a key in it
+# means the key must be revoked.
+.env
+.env.*
+!.env.example
+set_env.sh
+*.key
+*.pem
+
+# Runtime state — generated on every run, not source
+workspace/
+logs/
+*.log
+
+# Test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+*.zip
+dist/
+build/
+*.egg-info/
+
+# Chat exports — do not upload to the repo
+Chat — Rio.html
+Chat — Rio_files/
+Chat*.html
+Chat*_files/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

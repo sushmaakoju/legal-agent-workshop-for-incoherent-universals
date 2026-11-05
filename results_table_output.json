@@ -1,0 +1,126 @@
+{
+ "brown_bat": {
+  "Traditional": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Linear": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Unit": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Input": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Set of Support": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": false,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "neutral or entailed \u2014 row-level 'inconclusive' (row alone cannot decide)",
+   "combined_label": "inconclusive inference (cannot decide)",
+   "nli_label": "Neutral"
+  },
+  "Hyper": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Ordered": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  }
+ },
+ "brown_a": {
+  "Traditional": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Linear": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Unit": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Input": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Set of Support": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": false,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "neutral or entailed \u2014 row-level 'inconclusive' (row alone cannot decide)",
+   "combined_label": "inconclusive inference (cannot decide)",
+   "nli_label": "Neutral"
+  },
+  "Hyper": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  },
+  "Ordered": {
+   "kb_and_not_query_empty": true,
+   "kb_and_query_empty": true,
+   "row1_label": "entailment candidate (empty = contradiction)",
+   "row2_label": "contradiction candidate (empty = contradiction)",
+   "combined_label": "cannot decide \u2014 both empty, collapsed KB unsatisfiable (vacuous)",
+   "nli_label": "Neutral"
+  }
+ },
+ "unresolved": {
+  "kb_and_not_query_forces": false,
+  "kb_and_query_forces": false,
+  "combined_label": "Neutral",
+  "fol_verdict": "logically inconclusive",
+  "nli_label": "Neutral",
+  "scope": "equivocation-induced pairs only"
+ }
+}
