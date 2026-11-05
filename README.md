@@ -1,6 +1,17 @@
 # Is NLI Neutral the same as logically inconclusive?
 
-**For an equivocation-induced premise/hypothesis pair only — not for all Neutral pairs.**
+**For an equivocation-induced premise/hypothesis pair (known as incoherent universals) only — not for all Neutral pairs.**
+
+Background:
+Natural Languages have quirks and ambiguity. This was designed for the fun of language and its several facets of meanings. Based on lexical ambiguities, or multiple meanings to same word, or similarlty pronounced words. When I created an example as follows, it was meant to introduce something comical. The example turned out fun and funny to me. I present six resolution procedures that label Natural Language Inference by an FOL-extended method. The methods grounds in developing mapping function, Domain and Interpretation using Symbolic Logic -based proofs.
+
+Prior work is available: https://sushmaakoju.github.io/human-ai-collaborated-ai4science/ 
+
+Current work: is yet to be hosted.
+
+``
+Bat is a mammal. Bat is used in baseball. Bats have wings. Bats have a barrel. Wings are not barrels. Barrels are not wings. Bats can fly. There is a Brown bat.
+```
 
 Meta Global AI Developer Hackathon submission. Theoretical proof only.
 No empirical evaluation. No evaluator.
